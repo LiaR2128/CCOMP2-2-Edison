@@ -50,4 +50,6 @@ Account(std:: string accountName, int initialBalance)
 
 };
 
+return 0;
+
 }
