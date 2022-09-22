@@ -14,7 +14,7 @@ int main(){
 
     }
 
-    for (int x=1;x=100;x=x+1){
+    for (int x=1;x<=100;x=x+1){
 
         box2=box2+x;
     }

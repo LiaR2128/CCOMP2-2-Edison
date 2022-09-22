@@ -14,3 +14,10 @@ int main() {
             multi=multi+x;
         }
     }
+
+
+    cout<<multi<<endl;
+    return 0;
+
+
+}

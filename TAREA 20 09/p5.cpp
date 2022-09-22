@@ -67,7 +67,7 @@ int main(){
    }
 
 
-   cout<<scale-1<<endl;
+   cout<<scale-2<<endl;
 
 
    return 0;
