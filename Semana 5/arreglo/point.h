@@ -4,11 +4,13 @@
 
 #define __POINT_H__
 
+#include <iostream>
+
 
 class point {
 
     public :
-    point(int _x,int _y) : x(_x),y(_y) {}
+    point(int _x=0,int _y=0) : x(_x),y(_y) {}
 
     void setX(int _x){
         x= _x;
@@ -23,6 +25,10 @@ class point {
     }
     int getY() const {
         return y;
+    }
+
+    void print () const {
+        std :: cout << "(" << x << " , "<< y << ")" << std :: endl;
     }
 
 
