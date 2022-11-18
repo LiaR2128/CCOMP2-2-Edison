@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include "DynamicIntArray.h"
+template  <typename T>  //Se deben cambiar datos a tipo "T", ni idea cuales
 
 DynamicIntArray::DynamicIntArray() {
     this->size = 0;
@@ -87,7 +88,8 @@ void DynamicIntArray::remove(int pos) {
     data=tmp;
     
 } 
-template  <typename T>  //Se deben cambiar datos a tipo "T", ni idea cuales
 DynamicIntArray::~DynamicIntArray() {
     delete[] data;
 }
+
+
